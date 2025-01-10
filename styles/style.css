@@ -209,3 +209,15 @@
     color: #000;
     background-color: #ddd;
 }
+
+#footer-container {
+    margin-inline: 3rem;
+    margin-top: 25px;
+    border-top: 2px solid #fff;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
