@@ -52,3 +52,89 @@
     background-color: #167e96;
     cursor: pointer;
 }
+
+#main-container {
+    margin-inline: 3rem;
+}
+
+#section-quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#quote-container,
+#quote-description,
+#quote-description strong,
+#quote-author {
+    background-color: #343434;
+}
+
+#quote-container {
+    margin-top: 75px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    border-radius: 15px;
+}
+
+#quote-description {
+    padding-left: 10px;
+    max-width: 900px;
+    border-left: 3px solid #167e96;
+    font-size: 25px;
+    font-family: Georgia;
+    font-style: italic;
+}
+
+#quote-author {
+    margin-top: 10px;
+    color: #9f9f9f;
+    font-weight: bold;
+    font-family: Georgia;
+    font-style: italic;
+}
+
+#section-curiosities {
+    max-width: 1000px;
+    text-align: justify;
+}
+
+#curiosities-container {
+    margin-top: 50px;
+}
+
+#curiosities-container li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+#curiosities-title {
+    font-size: 30px;
+    border-left: 4px solid #167e96;
+    padding-inline: 5px;
+    margin-bottom: 25px;
+}
+
+.curiosity-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.curiosity-description {
+    font-family: Georgia;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    color: #d1d1D1;
+    border-left: 3px solid #167e96;
+}
+
+#curiosities-container a {
+    font-weight: bold;
+    color: #167e96;
+}
+
+#curiosities-container a:hover {
+    color: #d1d1D1;
+}
