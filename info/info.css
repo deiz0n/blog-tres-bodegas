@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    color: #d1d1D1;
+    background-color: #171219;
+}
+
+#header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #171219;
+    border-bottom: 2px solid #fff;
+    margin-inline: 3rem;
+}
+
+#header-title {
+    font-size: 30px;
+    color: #ddd;
+    border-left: 4px solid #167e96;
+    padding-inline: 2px;
+}
+
+#navbar-itens ul {
+    display: flex;
+}
+
+#navbar-itens a {
+    text-decoration: none;
+}
+
+#navbar-itens li {
+    list-style: none;
+    margin-left: 1rem;
+    padding: 15px 10px;
+    border: 1px solid #000;
+    background-color: #167e96;
+    border-radius: 5%;
+    transition: 0.3s;
+}
+
+#navbar-itens li:hover {
+    opacity: 0.8;
+}
+
+#navbar-itens a {
+    color: #ddd;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #167e96;
+    cursor: pointer;
+}
+
+#main-container {
+    margin-top: 30px;
+    margin-inline: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container-sections,
+#data-location,
+#data-geographical,
+.container-title,
+#locations-container,
+#locations-container ul,
+#locations-container li,
+#geographical-container,
+#geographical-container ul,
+#geographical-container li,
+.bold {
+    background-color: rgb(48, 47, 47);
+}
+
+.container-sections {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5rem;
+    padding: 2rem;
+}
+
+#locations-container li,
+#geographical-container li {
+    list-style: none;
+    margin-bottom: 7px;
+}
+
+#location-container,
+#geograohical-container {
+    position: relative;
+}
+
+.container-title {
+    margin-bottom: 10px;
+}
+
+.bold {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.point-list,
+#point-font {
+    width: 12px;
+    height: 12px;
+    background-color: #167e96;
+    position: absolute;
+    border-radius: 2px;
+}
+
+#point-font {
+    background-color: #7c7a7a;
+}
+
+.bold a {
+    background-color: rgb(48, 47, 47);
+    text-decoration: none;
+}
+
+.bold a:hover {
+    color: #fff;
+}
